@@ -4,14 +4,14 @@
 
 Code was originally imported from https://github.com/magicjar/whatsapp-widget
 
-# WhatsApp Widget
+# Standalone WhatsApp Widget
 
-A simple WhatsApp live chat widget for your website.
+A simple Standalone WhatsApp live chat widget for your website.
 
 
 ## Table of content
 
-- [WhatsApp Widget](#whatsapp-widget)
+- [Standalone WhatsApp Widget](#standalone-whatsapp-widget)
   - [Table of content](#table-of-content)
   - [Getting started](#getting-started)
   - [Usage](#usage)
