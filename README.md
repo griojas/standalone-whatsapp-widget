@@ -1,6 +1,5 @@
 [![npm version](https://img.shields.io/npm/v/whatsapp-widget.svg)](https://www.npmjs.com/package/whatsapp-widget)
-[![Code license](https://img.shields.io/github/license/magicjar/whatsapp-widget)](#license)
-
+[![Code license](https://img.shields.io/github/license/griojas/standalone-whatsapp-widget)](#license)
 
 
 Code was originally imported from https://github.com/magicjar/whatsapp-widget
@@ -25,29 +24,29 @@ A simple WhatsApp live chat widget for your website.
 ## Getting started
 
 There are some ways to import the package
-- [Download the latest release.](https://github.com/magicjar/whatsapp-widget/releases)
+- [Download the latest release.](https://github.com/griojas/standalone-whatsapp-widget/releases)
 - Clone the repo:
 
-    `git clone https://github.com/magicjar/whatsapp-widget.git`
+    `git clone https://github.com/griojas/standalone-whatsapp-widget.git`
     
 - Install with [npm](https://www.npmjs.com/):
     
-    `npm install whatsapp-widget`
+    `npm install standalone-whatsapp-widget`
 
 - CDN from [jsDelivr](https://www.jsdelivr.com)
 
-    [https://www.jsdelivr.com/package/npm/whatsapp-widget](https://www.jsdelivr.com/package/npm/whatsapp-widget)
+    [https://www.jsdelivr.com/package/npm/standalone-whatsapp-widget](https://www.jsdelivr.com/package/npm/standalone-whatsapp-widget)
 
 ## Usage
 
 Include the `css` inside `head` tag and `javascript` file inside `body` tag of your html file.
 
 ``` html
-<link rel="stylesheet" href="/dist/css/whatsapp-widget.min.css">
+<link rel="stylesheet" href="/dist/css/standalone-whatsapp-widget.min.css">
 ```
 
 ``` html
-<script src="/dist/js/whatsapp-widget.min.js"></script>
+<script src="/dist/js/standalone-whatsapp-widget.min.js"></script>
 ```
 
 ### Built in form
@@ -150,4 +149,4 @@ introduction | string | '' | Chat introduction
 
 Copyright (c) 2022 - Guillermo Riojas
 
-WhatsApp Widget released under the [MIT License](https://github.com/magicjar/whatsapp-widget/blob/master/LICENSE).
+WhatsApp Widget released under the [MIT License](https://github.com/griojas/standalone-whatsapp-widget/blob/main/LICENSE).

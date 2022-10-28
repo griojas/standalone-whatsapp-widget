@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-widget-standalone",
+  "name": "standalone-whatsapp-widget",
   "version": "1.0.0",
   "description": "A simple WhatsApp live chat widget for your website.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/griojas/whatsapp-widget.git"
+    "url": "git+https://github.com/griojas/standalone-whatsapp-widget.git"
   },
   "keywords": [
     "whatsapp",
@@ -20,14 +20,14 @@
     "email": "guillermo.riojas@gmail.com",
     "url": "https://github.com/griojas"
   },
-  "style": "dist/css/whatsapp-widget-standalone.css",
+  "style": "dist/css/standalone-whatsapp-widget.css",
   "sass": "scss/default.scss",
-  "main": "dist/js/whatsapp-widget-standalone.js",
+  "main": "dist/js/standalone-whatsapp-widget.js",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/griojas/whatsapp-widget/issues"
+    "url": "https://github.com/griojas/standalone-whatsapp-widget/issues"
   },
-  "homepage": "https://github.com/griojas/whatsapp-widget#readme",
+  "homepage": "https://github.com/griojas/standalone-whatsapp-widget#readme",
   "files": [
     "dist/**/*.{css,js}",
     "src/**/*.{js}",
@@ -35,12 +35,12 @@
   ],
   "scripts": {
     "compile": "npm-run-all --parallel compile:*",
-    "compile:css": "node-sass --output-style expanded --precision 6 scss/default.scss dist/css/whatsapp-widget-standalone.css",
+    "compile:css": "node-sass --output-style expanded --precision 6 scss/default.scss dist/css/standalone-whatsapp-widget.css",
     "compile:js": "rollup --config",
     "lint:js": "eslint src",
     "minify": "npm-run-all --parallel minify:*",
-    "minify:css": "csso dist/css/whatsapp-widget-standalone.css --output dist/css/whatsapp-widget-standalone.min.css",
-    "minify:js": "terser --compress --mangle --comments \"/^!/\" --output dist/js/whatsapp-widget-standalone.min.js dist/js/whatsapp-widget-standalone.js",
+    "minify:css": "csso dist/css/standalone-whatsapp-widget.css --output dist/css/standalone-whatsapp-widget.min.css",
+    "minify:js": "terser --compress --mangle --comments \"/^!/\" --output dist/js/standalone-whatsapp-widget.min.js dist/js/standalone-whatsapp-widget.js",
     "watch": "npm-run-all --parallel watch:*",
     "watch:css": "nodemon --watch scss/ --ext scss --exec \"npm-run-all compile:css minify:css\"",
     "watch:js": "nodemon --watch src/ --ext js --exec \"npm-run-all lint:js compile:js minify:js\""
