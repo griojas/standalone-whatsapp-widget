@@ -148,6 +148,6 @@ introduction | string | '' | Chat introduction
 
 ## License
 
-Copyright (c) 2020 - Fajar Setya Budi.
+Copyright (c) 2022 - Guillermo Riojas
 
 WhatsApp Widget released under the [MIT License](https://github.com/magicjar/whatsapp-widget/blob/master/LICENSE).
