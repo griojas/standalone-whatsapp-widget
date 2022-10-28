@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-widget",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "A simple WhatsApp live chat widget for your website.",
   "repository": {
     "type": "git",
@@ -16,9 +16,9 @@
     "chat"
   ],
   "author": {
-    "name": "Fajar Setya Budi",
-    "email": "fajarsetya@live.com",
-    "url": "https://magicjar.github.io"
+    "name": "Guillermo R",
+    "email": "guillermo.riojas@gmail.com",
+    "url": "https://github.com/griojas"
   },
   "style": "dist/css/whatsapp-widget.css",
   "sass": "scss/default.scss",
