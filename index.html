@@ -65,23 +65,16 @@
     <form id="general-support" class="wa-widget" action="6289613866111" data-chat="general-support"></form>
     <!-- End -->
 
-    <script src="dist/js/standalone-whatsapp-widget.min.js"></script>
+    <script src="dist/js/standalone-whatsapp-widget.js"></script>
     <script>
         var generalSupport = new WhatsAppWidget(document.getElementById('general-support'), {
-            name: 'Guillermo Riojas',
-            division: 'General Support',
+            name: 'Punto Cubano Salsa Amsterdam Team',
+            division: 'Customer support',
             photo: 'images/user.png',
-            introduction: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+            introduction: 'Hello, you can get in touch with us via Whatsapp. Feel free to send your questions or feedback.',
+            showHeader: false
         }, [
             {
-                data: 'name',
-                type: 'text',
-                required: true
-            }, {
-                data: 'email',
-                type: 'email',
-                required: false
-            }, {
                 data: 'message',
                 type: 'text',
                 required: true

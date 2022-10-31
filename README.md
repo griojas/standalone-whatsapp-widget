@@ -144,6 +144,7 @@ name | string | '' | Chat / person name
 division | string | '' | Division name
 photo | string | '' | Company logo or person photo
 introduction | string | '' | Chat introduction
+showHeader | boolean | false | Displays the chat header
 
 ## License
 
